@@ -1,0 +1,36 @@
+{
+  "name": "generator-tenkaklet-angular",
+  "version": "0.0.1",
+  "description": "An Angularjs generator created by Tenkaklet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tenkaklet/generator-tenkaklet-angular.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "angularjs",
+    "tenkaklet",
+    "javascript",
+    "generator",
+    "builder",
+    "scaffold"
+  ],
+  "author": "Max Carlquist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tenkaklet/generator-tenkaklet-angular/issues"
+  },
+  "homepage": "https://github.com/Tenkaklet/generator-tenkaklet-angular#readme",
+  "dependencies": {
+    "decamelize": "^2.0.0",
+    "uppercamelcase": "^3.0.0",
+    "yeoman-generator": "^3.1.1"
+  },
+  "files": [
+    "app"
+  ]
+}
