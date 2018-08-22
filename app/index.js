@@ -9,6 +9,11 @@ module.exports = class extends Generator {
     }
 
     start() {
-        this.log('Doing something');
+        this.prompt([
+            {type: 'input', name: 'name', message: 'What is your app called?'}
+        ]).then((answers) => {
+            this.destinationRoot(answers.name);
+            this.fs.copyTpl(this.templatePath('index.html'), this.destinationPath(answers.name + '.html'), { message : 'Hello World'});
+        })
     }
 };
